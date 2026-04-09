@@ -23,6 +23,7 @@ public class Strike extends BaseCard {
     public Strike() {
         super(ID, info);
         setDamage(10,4);
+setBlock(10,4);
 setMagic(0,0);
 
     }
@@ -35,11 +36,15 @@ int STPint = 0;
         }
 if (STPInt <= 3){
 this.baseDamage = STPint;
+this.baseBlock = STPint;
         addToBot(new DamageAction(m, new DamageInfo(p, damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_VERTICAL));
+        addToBot(new GainBlockAction(p, p, block));
 }
 if (STPInt > 3){
 this.baseDamage = STPint * 2;
+this.baseBlock = STPint * 2;
         addToBot(new DamageAction(m, new DamageInfo(p, damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_VERTICAL));
+        addToBot(new GainBlockAction(p, p, block));
 }
     }
 
