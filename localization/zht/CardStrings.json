@@ -70,7 +70,7 @@
   },
   "${modID}:STPAttackDef": {
     "NAME": "一心二用",
-    "DESCRIPTION": "造成 ！D！ 點傷害 NL 獲得 ！B！ 點格檔 NL 當前 hopemod:非凡之力 層數大於3時 NL 傷害及格檔翻倍 "
+    "DESCRIPTION": "造成 ！D！ 點傷害 NL 獲得 ！B！ 點格檔 NL 當前 hopemod:非凡之力 層數大於3時 NL 卡片傷害及格檔翻倍 "
   },
 
 
