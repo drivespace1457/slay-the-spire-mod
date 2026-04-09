@@ -29,9 +29,18 @@ setMagic(0,0);
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-
-
+int STPint = 0;
+        if (p.hasPower(STPower.POWER_ID)) {
+            STPint = (p.getPower(STPower.POWER_ID)).amount;
+        }
+if (STPInt <= 3){
+this.baseDamage = STPint;
         addToBot(new DamageAction(m, new DamageInfo(p, damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_VERTICAL));
+}
+if (STPInt > 3){
+this.baseDamage = STPint * 2;
+        addToBot(new DamageAction(m, new DamageInfo(p, damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_VERTICAL));
+}
     }
 
 
