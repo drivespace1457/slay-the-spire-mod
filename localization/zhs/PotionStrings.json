@@ -1,0 +1,18 @@
+{
+  "${modID}:PotionID": {
+    "NAME": "Some Kind of Potion",
+    "DESCRIPTIONS": [
+      "Little",
+      " pieces ",
+      "that get put together",
+      " into a description.",
+      " Exactly how depends on the potion, and you can set it up however you want."
+    ]
+  },
+  "${modID}:MyPotion": {
+    "NAME": "增幅藥水(力量)",
+    "DESCRIPTIONS": [
+      "獲得 #b%d #y點力量."
+    ]
+  }
+}

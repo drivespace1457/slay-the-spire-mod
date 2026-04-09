@@ -1,0 +1,70 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description. NL Second line.",
+    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "${modID}:Strike": {
+    "NAME": "打擊",
+    "DESCRIPTION": "造成 !D! 點傷害"
+  },
+  "${modID}:MaxAttack": {
+    "NAME": "找到你囉~",
+    "DESCRIPTION": "造成 !D! 點傷害 NL 斬殺時獲得最大生命值 !M! 點"
+  },
+  "${modID}:StrikeSTP": {
+    "NAME": "殺界風破斬",
+    "DESCRIPTION": "造成 !D! 點傷害 NL 消耗2層 hopemod:非凡之力 NL 增加 !M! 點傷害"
+  },
+  "${modID}:AllAttackSTP": {
+    "NAME": "廣域破壞",
+    "DESCRIPTION": "造成 !D! 點傷害 NL 擁有10層以上 hopemod:非凡之力 NL 單體攻擊轉為全體"
+  },
+  "${modID}:STPAttack_debuff": {
+    "NAME": "糊你一臉！",
+    "DESCRIPTION": "造成 !D! 點傷害 NL 消耗1層 hopemod:非凡之力 NL 給予對方 !M! 層中毒"
+  },
+  "${modID}:AroundAttackSTP": {
+    "NAME": "全體公雞",
+    "DESCRIPTION": " 虚无 擁有5層以上 hopemod:非凡之力 NL 對全體敵人造成 !D! 點傷害 NL 並回復 [R]"
+  },
+  "${modID}:Defend": {
+      "NAME": "防禦",
+      "DESCRIPTION": "獲得 !B! 點格檔"
+  },
+  "${modID}:DefendSTP": {
+    "NAME": "蹲下格檔",
+    "DESCRIPTION": "本回合未獲得 hopemod:非凡之力 NL 獲得 !hopemod:STP! 層 hopemod:非凡之力 NL 及 !B! 點格檔 NL 反之，獲得 !M! 點格檔"
+  },
+  "${modID}:STPEnergy": {
+      "NAME": "砸我！",
+      "DESCRIPTION": "失去 1 點生命 NL 獲得 6 層 hopemod:非凡之力 "
+  },
+  "${modID}:HpEnergy": {
+      "NAME": "玩火",
+      "DESCRIPTION": "失去 2 點生命 NL 獲得 [R] [R] NL 和1層 hopemod:非凡之力 ",
+      "UPGRADE_DESCRIPTION": "失去 2 點生命 NL 獲得 [R] [R] [R] NL 和3層 hopemod:非凡之力 "
+  },
+  "${modID}:GainSTP": {
+      "NAME": "不凡之路",
+      "DESCRIPTION": "每回合開始時獲得1層 hopemod:非凡之力 ",
+      "UPGRADE_DESCRIPTION": "每回合開始時獲得2層 hopemod:非凡之力 "
+  },
+  "${modID}:STPDrew": {
+      "NAME": "抽抽樂",
+      "DESCRIPTION": "回合開始時 NL hopemod:非凡之力 達4層以上 NL 消耗2層抽2張牌 NL 小於4層則抽1張",
+      "UPGRADE_DESCRIPTION": "回合開始時 NL hopemod:非凡之力 達4層以上 NL 消耗2層抽2張牌 NL 小於4層則抽1張"
+  },
+  "${modID}:STPDoubleGain": {
+      "NAME": "非凡二向性",
+      "DESCRIPTION": "回合結束時 NL hopemod:非凡之力 達5層以上 NL 回復2點生命 NL 反之損失1點生命",
+      "UPGRADE_DESCRIPTION": "回合結束時 NL hopemod:非凡之力 達5層以上 NL 回復2點生命 NL 反之損失1點生命"
+  }
+}
+
+

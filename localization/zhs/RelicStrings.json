@@ -1,0 +1,16 @@
+{
+  "${modID}:RelicID": {
+    "NAME": "Good Relic",
+    "FLAVOR": "Flavor text displayed in detailed relic view.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. [E] is an energy icon."
+    ]
+  },
+  "${modID}:MyRelic": {
+    "NAME": "新初始遺物",
+    "FLAVOR": "初始遺物(待改進)",
+    "DESCRIPTIONS": [
+      "當你打出一張牌，獲得 #b%d #y力量."
+    ]
+  }
+}

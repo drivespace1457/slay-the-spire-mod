@@ -1,0 +1,44 @@
+{
+  "${modID}:RelicID": {
+    "NAME": "Good Relic",
+    "FLAVOR": "Flavor text displayed in detailed relic view.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. [E] is an energy icon."
+    ]
+  },
+  "${modID}:MyRelic": {
+    "NAME": "新初始遺物",
+    "FLAVOR": "初始遺物(待改進)",
+    "DESCRIPTIONS": [
+      "當你打出一張牌，獲得 #b%d #y力量."
+    ]
+  },
+  "${modID}:STPRelic": {
+    "NAME": "奇特的俗投",
+    "FLAVOR": "在東海岸撿到的俗投，又圓又好握~",
+    "DESCRIPTIONS": [
+      "每當你打出1張牌，獲得 1層 #y非凡之力 "
+    ]
+  },
+  "${modID}:STPDrewRelic": {
+    "NAME": "時計",
+    "FLAVOR": "時間，是力量最好的證明。",
+    "DESCRIPTIONS": [
+      "每當你打出2張牌，獲得 1層 #y非凡之力 "
+    ]
+  },
+  "${modID}:STPSubRelic": {
+    "NAME": "十萬訂閱獎牌",
+    "FLAVOR": "我是大V",
+    "DESCRIPTIONS": [
+      "回合結束時，獲得1個 #y讚! "
+    ]
+  },
+  "${modID}:STPFocusRelic": {
+    "NAME": "別吵，我在專心",
+    "FLAVOR": "等一下！現在很重要！！",
+    "DESCRIPTIONS": [
+      "戰鬥開始時 NL 給予全部敵人2層 #y關注焦點 "
+    ]
+  }
+}

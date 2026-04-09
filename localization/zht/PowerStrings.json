@@ -1,0 +1,68 @@
+{
+  "${modID}:PowerID": {
+    "NAME": "Ultimate Power",
+    "DESCRIPTIONS": [
+      "You are Very Cool and Strong."
+    ]
+  },
+  "${modID}:STP": {
+    "NAME": "非凡之力",
+    "DESCRIPTIONS": [
+      "當擁有 #y非凡之力 8層以上，回合結束時獲得1點力量，並扣除8層 #y非凡之力。 NL 若小於8層則扣除3層 #y非凡之力。"
+    ]
+  },
+  "${modID}:GSTP": {
+    "NAME": "不凡之路",
+    "DESCRIPTIONS": [
+      "每回合開始時獲得1層 #y非凡之力"
+    ]
+  },
+  "${modID}:STPD": {
+    "NAME": "抽抽樂",
+    "DESCRIPTIONS": [
+      "回合開始時 NL #y非凡之力達4層以上 NL 消耗2層抽2張牌 NL 小於4層則抽1張"
+    ]
+  },
+  "${modID}:STP_DBG": {
+    "NAME": "非凡二向性",
+    "DESCRIPTIONS": [
+      "回合結束時 NL #y非凡之力 達5層以上 NL 回復2點 生命 NL 反之損失1點 生命 "
+    ]
+  },
+  "${modID}:STP_CS": {
+    "NAME": "力量具現化",
+    "DESCRIPTIONS": [
+      "每次獲得 #y非凡之力 時 NL 對所有敵人造成 #y總層數 點 傷害 "
+    ]
+  },
+  "${modID}:STP_ODC": {
+    "NAME": "一條龍服務",
+    "DESCRIPTIONS": [
+      "回合結束透過 #y非凡之力 獲得 #r力量 時 NL 額外獲得此能力層數 #g敏捷 "
+    ]
+  },
+  "${modID}:SCRY3": {
+    "NAME": "占卜術",
+    "DESCRIPTIONS": [
+      "透過學院傳授的占卜術 NL 在每回合開始時 NL #y預見 (3) NL [#e95530]疊加無效[] "
+    ]
+  },
+  "${modID}:STP_FT": {
+    "NAME": "關注焦點",
+    "DESCRIPTIONS": [
+      "使用 #y攻擊牌 攻擊 NL 擁有 #y關注焦點 的敵人 NL 獲得 #y1 點 #y非凡之力"
+    ]
+  },
+  "${modID}:STP_FT20": {
+    "NAME": "心生好感",
+    "DESCRIPTIONS": [
+      "因為你的 #y過分關注 NL 讓他對你產生了 #y好感 NL 攻勢收斂並給予回報"
+    ]
+  },
+  "${modID}:STP_TGD": {
+    "NAME": "下播啦、下播~",
+    "DESCRIPTIONS": [
+      "回合結束時 獲得 hopemod:非凡之力 層數格檔"
+    ]
+  }
+}

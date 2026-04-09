@@ -1,0 +1,34 @@
+{
+  "${modID}:EventID": {
+    "NAME": "Event Name",
+    "DESCRIPTIONS": [
+      "This is event text, generally used to describe what's happening.",
+      "#g~This~ #g~text~ #g~is~ #g~green~ #g~and~ #g~wavy.~",
+      "#r@RED@ #r@AND@ #r@VIBRATING@ #r@TEXT.@",
+      "#rRed #gGreen #yYellow #bBlue #pPurple. ~Wavy~ @vibrating.@",
+      "You have to mark every word individually.",
+      "You can also use [#ffffff]white[] hex color codes like this to color text.",
+      "Hex color codes also work in card text! But not on keywords, without some workarounds."
+    ],
+    "OPTIONS": [
+      "[Action Description] What you actually get.",
+      "[Denial] #rLose #r1 #rMax #rHP. Bad stuff is red.",
+      "[Acceptance] #gGain #gApotheosis. Good stuff is green.",
+      "[Leave]",
+      "Select card to remove. (You can also stick extra text like this in here.)"
+    ]
+  },
+  "${modID}:Get_off_work": {
+    "NAME": "下班了，終於下班了",
+    "DESCRIPTIONS": [
+      "終於下班了。 NL 要 #g出門買點什麼 嗎？ NL 還是 #y直接躺床睡覺 ？",
+      "躺在軟綿綿的床上，漸漸地睡著了~",
+      "出門購物，賣了點東西。"
+    ],
+    "OPTIONS": [
+      "[躺床] 回復 #y50% 生命",
+      "[出門] 獲得 1張 #y隨機卡片 ",
+      "結束事件"
+    ]
+  }
+}

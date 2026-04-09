@@ -1,0 +1,190 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description. NL Second line.",
+    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "${modID}:Strike": {
+    "NAME": "打擊",
+    "DESCRIPTION": "造成 !D! 點 傷害 "
+  },
+  "${modID}:MaxAttack": {
+    "NAME": "找到你囉~",
+    "DESCRIPTION": "造成 !D! 點 傷害 NL 斬殺 時獲得 最大生命值 !M! 點"
+  },
+  "${modID}:StrikeSTP": {
+    "NAME": "殺界風破斬",
+    "DESCRIPTION": "造成 !D! 點 傷害 2次 NL 消耗2層 hopemod:非凡之力 NL 增加 !M! 點 傷害 ",
+    "UPGRADE_DESCRIPTION":"造成 !D! 點 傷害 2次 NL 消耗2層 hopemod:非凡之力 NL 增加 !M! 點 傷害"
+  },
+  "${modID}:STPFocusAttack": {
+    "NAME": "強制引流",
+    "DESCRIPTION": "造成 !D! 點傷害 NL 給予敵人 !M! 層 hopemod:關注焦點 "
+  },
+  "${modID}:STPWeakAttack": {
+    "NAME": "場外立回",
+    "DESCRIPTION": "造成 !D! 點 傷害 NL 若敵人是攻擊意圖 NL 給予 !hopemod:WEAK! 層 虛弱 NL 消耗4層 hopemod:非凡之力 NL 增加 1 層 虛弱 ",
+    "UPGRADE_DESCRIPTION":"造成 !D! 點 傷害 NL 若敵人是攻擊意圖 NL 給予 !hopemod:WEAK! 層 虛弱 NL 消耗3層 hopemod:非凡之力 NL 增加 1 層 虛弱 "
+  },
+  "${modID}:StrikeCountX": {
+    "NAME": "桑桑的真正力量！！",
+    "DESCRIPTION": "本次戰鬥中每獲得 X 次 hopemod:非凡之力 NL 對隨機敵人造成 X 傷害 !M! 次 NL X= !D! "
+  },
+  "${modID}:STPPercent": {
+    "NAME": "機制怪",
+    "DESCRIPTION": "給予敵人 !M! % 當前血量制裁傷害"
+  },
+  "${modID}:FocusBomb": {
+    "NAME": "炎上",
+    "DESCRIPTION": "造成 !D! 點傷害 NL (總傷害: hopemod:關注焦點 x 4 )"
+  },
+  "${modID}:STPUltiAttack": {
+    "NAME": "外賣",
+    "DESCRIPTION": "造成 !D! 點傷害 !M! 次 NL 次數為當前 hopemod:非凡之力 NL 層數的一半 NL 消耗 "
+  },
+  "${modID}:AllAttackSTP": {
+    "NAME": "廣域破壞",
+    "DESCRIPTION": "造成 !D! 點 傷害 NL 擁有6層以上 hopemod:非凡之力 NL 單體攻擊轉為全體 NL 並抽1張牌"
+  },
+  "${modID}:STPAttack_debuff": {
+    "NAME": "糊你一臉！",
+    "DESCRIPTION": "造成 !D! 點 傷害 NL 消耗1層 hopemod:非凡之力 NL 給予對方 !M! 層 中毒 NL 及 !hopemod:STPAttack_debuff_Vul! 層 易傷 "
+  },
+  "${modID}:AroundAttackSTP": {
+    "NAME": "全體公雞",
+    "DESCRIPTION": " 虛無 NL 擁有3層以上 hopemod:非凡之力 NL 對全體敵人 NL 造成 !D! 點 傷害 並回復 [R]"
+  },
+  
+  "${modID}:FocusAttack": {
+    "NAME": "先退追再回追",
+    "DESCRIPTION": " 造成 !D! 點傷害 NL ( hopemod:關注焦點 層數 * !M! ) "
+  },
+  "${modID}:STPStackAttack": {
+    "NAME": "安眠曲",
+    "DESCRIPTION": "對所有敵人 NL 造成當前 hopemod:非凡之力 NL 層數 !D! 點傷害"
+  },
+
+
+
+
+  "${modID}:Defend": {
+    "NAME": "防禦",
+    "DESCRIPTION": "獲得 !B! 點 格檔 "
+  },
+  "${modID}:STPVoidEnergy": {
+    "NAME": "建模爆肝",
+    "DESCRIPTION": "獲得 [R] NL 獲得 !M! 層 hopemod:非凡之力 NL 在抽牌堆加入1張 虛空 ",
+    "UPGRADE_DESCRIPTION": "獲得 [R] [R] NL 獲得 !M! 層 hopemod:非凡之力 NL 在抽牌堆加入1張 虛空 "
+  },
+  "${modID}:STPStackDef": {
+    "NAME": "疊個甲",
+    "DESCRIPTION": "依照當前 hopemod:非凡之力 層數 NL 獲得 !B! 點 格檔 NL ( !M! 點來自升級加成)"
+  },
+  "${modID}:STPStackDefEveryTurn": {
+    "NAME": "留級生的生存本能",
+    "DESCRIPTION": "獲得 !B! 點 格檔 NL (本回合每獲得一次 hopemod:非凡之力 NL 獲得 !M! 點 格檔 )"
+  },
+  "${modID}:DefendSTP": {
+    "NAME": "蹲下格檔",
+    "DESCRIPTION": "若本回合獲得 hopemod:非凡之力 層數小於4層 NL 獲得 !hopemod:STP! 層 hopemod:非凡之力 NL 及 !B! 點 格檔 NL 反之，獲得 !M! 點 格檔 "
+  },
+  "${modID}:STPSeek": {
+    "NAME": "我找找...",
+    "DESCRIPTION": "依照當前 hopemod:非凡之力 層數 NL 5點以上 hopemod:搜尋 : !M! NL 小於5點 hopemod:找回 : !M! NL 消耗 "
+  },
+  "${modID}:STPFocusDef": {
+    "NAME": "防禦·冰淇淋",
+    "DESCRIPTION": "獲得 !B! 點格檔 NL 給予敵方全體 !M! 層 hopemod:關注焦點 NL 消耗 "
+  },
+  "${modID}:STPFocusDefMax": {
+    "NAME": "狗",
+    "DESCRIPTION": "獲得 !B! 點格檔 NL 給予敵方全體 !M! 層 hopemod:關注焦點 NL 獲得一張 羞恥 NL 消耗 "
+  },
+  "${modID}:STPDoubleFocusBlock": {
+    "NAME": "暴言",
+    "DESCRIPTION": "翻倍所有敵人 hopemod:關注焦點 NL 獲得翻倍後總層數格檔"
+  },
+  "${modID}:STPMutiAction": {
+    "NAME": "Vtuber的多樣性",
+    "DESCRIPTION": " hopemod:獎勵 NL 1:獲得 !B! 點格檔 NL 2:給隨機敵人 !M! 層 NL hopemod:關注焦點 NL 3:抽 1 張牌 並在將1張詛咒牌 NL 放入抽牌堆 NL 4:獲得 !hopemod:MutiSTPP! 個 *讚 及 !hopemod:MutiEnergy! 點 [R] "
+  },
+  "${modID}:STPDrawZero": {
+    "NAME": "快！我要抽牌！",
+    "DESCRIPTION": "消耗1 層 hopemod:非凡之力 NL 抽 !M! 張牌"
+  },
+  "${modID}:STPEnergy": {
+    "NAME": "砸我！",
+    "DESCRIPTION": " 獲得 !M! 層 hopemod:非凡之力 "
+  },
+  "${modID}:HpEnergy": {
+    "NAME": "玩火",
+    "DESCRIPTION": "失去 1 點 生命 NL 獲得 [R] [R] NL 和1層 hopemod:非凡之力 ",
+    "UPGRADE_DESCRIPTION": "失去 1 點 生命 NL 獲得 [R] [R] [R] NL 和3層 hopemod:非凡之力 "
+  },
+  "${modID}:STPBuffer": {
+    "NAME": "虛擬主播",
+    "DESCRIPTION": "消耗13層 hopemod:非凡之力 NL 獲得 !M! 層 緩衝 "
+  },
+  "${modID}:DrewTwoDisOne": {
+    "NAME": "觀眾來來去去",
+    "DESCRIPTION": "抽取 !hopemod:DREW! 張牌 NL 丟棄 !M! 張牌 NL 消耗 ",
+    "UPGRADE_DESCRIPTION": "抽取 !hopemod:DREW! 張牌 NL 丟棄 !M! 張牌"
+  },
+  "${modID}:STPTemp": {
+    "NAME": "打哈欠~",
+    "DESCRIPTION": "獲得 !B! 點 格檔 NL 獲得 !M! 個 *讚！ ",
+    "UPGRADE_DESCRIPTION":"獲得 !B! 點 格檔 NL 獲得 !M! 個 *讚！+ "
+  },
+  "${modID}:STPP": {
+    "NAME": "讚！",
+    "DESCRIPTION": " 保留 NL 獲得 !M! 層 hopemod:非凡之力 NL 消耗 "
+  },
+  "${modID}:GainSTP": {
+    "NAME": "不凡之路",
+    "DESCRIPTION": "每回合開始時 NL 獲得 !M! 層 hopemod:非凡之力 ",
+    "UPGRADE_DESCRIPTION": "每回合開始時 NL 獲得 !M! 層 hopemod:非凡之力 "
+  },
+  "${modID}:STPTurnGainDefend": {
+    "NAME": "下播啦、下播~",
+    "DESCRIPTION": "回合結束時 獲得 hopemod:非凡之力 層數格檔",
+    "UPGRADE_DESCRIPTION": "回合結束時 獲得 hopemod:非凡之力 層數格檔"
+  },
+  "${modID}:STPOneDS": {
+    "NAME": "一條龍服務",
+    "DESCRIPTION": " 虛無 NL 回合結束透過 hopemod:非凡之力 獲得力量時 NL 額外獲得此能力層數 敏捷 ",
+    "UPGRADE_DESCRIPTION": "回合結束透過 hopemod:非凡之力 獲得力量時 NL 額外獲得此能力層數 敏捷 "
+  },
+  "${modID}:STPCountStrike": {
+    "NAME": "力量具現化",
+    "DESCRIPTION": "每次獲得 hopemod:非凡之力 時 NL 對所有敵人造成 !M! 點 傷害 ",
+    "UPGRADE_DESCRIPTION": "每次獲得 hopemod:非凡之力 時 NL 對所有敵人造成 !M! 點 傷害 "
+  },
+  "${modID}:STPDrew": {
+    "NAME": "抽抽樂",
+    "DESCRIPTION": "回合開始時 NL hopemod:非凡之力 達4層以上 NL 消耗2層抽2張牌 NL 小於4層則抽1張",
+    "UPGRADE_DESCRIPTION": "回合開始時 NL hopemod:非凡之力 達4層以上 NL 消耗2層抽2張牌 NL 小於4層則抽1張"
+  },
+  "${modID}:Scry3": {
+    "NAME": "占卜術",
+    "DESCRIPTION": "透過學院傳授的占卜術 NL 在每回合開始時 NL 預見 3 NL hopemod:疊加無效 ",
+    "UPGRADE_DESCRIPTION": " 固有 NL 透過學院傳授的占卜術 NL 在每回合開始時 NL 預見 3 NL hopemod:疊加無效 "
+  },
+  "${modID}:STPDoubleGain": {
+    "NAME": "非凡二向性",
+    "DESCRIPTION": "回合結束時 NL hopemod:非凡之力 達4層以上 NL 回復2點 生命 NL 反之損失1點 生命",
+    "UPGRADE_DESCRIPTION": "回合結束時 NL hopemod:非凡之力 達4層以上 NL 回復2點 生命 NL 反之損失1點 生命"
+  },
+
+
+  "${modID}:STPReduceStr": {
+    "NAME": "沒力了~",
+    "DESCRIPTION": " 虛無 NL 回合結束時 NL 扣除自身1點力量 "
+  }
+}
+
+

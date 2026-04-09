@@ -1,0 +1,71 @@
+[
+  {
+    "PROPER_NAME": "This is displayed in the tooltip.",
+    "NAMES": [
+      "these",
+      "are",
+      "detected",
+      "in",
+      "the",
+      "text"
+    ],
+    "DESCRIPTION": "This is displayed in the tooltip. Spaces should not be used be avoided in NAMES, with the exception of multi-word keywords (see next entry)."
+  },
+  {
+    "PROPER_NAME": "Multiword Keyword",
+    "NAMES": [
+      "multiword keyword",
+      "multiword_keyword",
+      "multiword_keywords"
+    ],
+    "DESCRIPTION": "Make sure the first element in NAMES has no underscores. The rest should use _ in the place of spaces. In card text, you'll use the underscore versions."
+  },
+  {
+    "PROPER_NAME": "非凡之力",
+    "NAMES": [
+      "非凡之力"
+    ],
+    "DESCRIPTION": "當擁有 #y非凡之力 8層以上， NL 回合結束時獲得1點力量， NL 並扣除8層 #y非凡之力 ， NL 若小於8層則扣除3層 #y非凡之力。",
+    "COLOR": "fc83da"
+  },
+  {
+    "PROPER_NAME": "關注焦點",
+    "NAMES": [
+      "關注焦點"
+    ],
+    "DESCRIPTION": "使用 #y攻擊牌 攻擊 NL 擁有 #y關注焦點 的敵人 NL 獲得 #y1 點 #y非凡之力",
+    "COLOR": "26d9d5"
+  },
+  {
+    "PROPER_NAME": "疊加無效",
+    "NAMES": [
+      "疊加無效"
+    ],
+    "DESCRIPTION": "字面意思",
+    "COLOR": "d92f19"
+  },
+  {
+    "PROPER_NAME": "獎勵",
+    "NAMES": [
+      "獎勵"
+    ],
+    "DESCRIPTION": "根據當前 #y非凡之力 層數 NL 獲得以下等級獎勵 NL 此為 #r累計獎勵 ",
+    "COLOR": "e95530"
+  },
+  {
+    "PROPER_NAME": "找回",
+    "NAMES": [
+      "找回"
+    ],
+    "DESCRIPTION": "從 #y棄牌堆 中 NL 選1張牌放回手牌 NL 扣除1點 #y非凡之力 ",
+    "COLOR": "e95530"
+  },
+  {
+    "PROPER_NAME": "搜尋",
+    "NAMES": [
+      "搜尋"
+    ],
+    "DESCRIPTION": "從 #y抽牌堆 中 NL 選1張牌放回手牌 NL 扣除2點 #y非凡之力 ",
+    "COLOR": "e95530"
+  }
+]

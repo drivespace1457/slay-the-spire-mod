@@ -1,0 +1,32 @@
+{
+  "${modID}:PowerID": {
+    "NAME": "Ultimate Power",
+    "DESCRIPTIONS": [
+      "You are Very Cool and Strong."
+    ]
+  },
+  "${modID}:STP": {
+    "NAME": "非凡之力",
+    "DESCRIPTIONS": [
+      "當擁有 #y非凡之力 8層以上，回合結束時獲得1點力量，並扣除8層 #y非凡之力。 NL 若小於8層則扣除3層 #y非凡之力。"
+    ]
+  },
+  "${modID}:GSTP": {
+    "NAME": "不凡之路",
+    "DESCRIPTIONS": [
+      "每回合開始時獲得1層 #y非凡之力"
+    ]
+  },
+  "${modID}:STPD": {
+    "NAME": "抽抽樂",
+    "DESCRIPTIONS": [
+      "回合開始時 NL #y非凡之力達4層以上 NL 消耗2層抽2張牌 NL 小於4層則抽1張"
+    ]
+  },
+  "${modID}:STP_DBG": {
+    "NAME": "非凡二向性",
+    "DESCRIPTIONS": [
+      "回合結束時 NL #y非凡之力達5層以上 NL 回復2點生命 NL 反之損失1點生命"
+    ]
+  }
+}
