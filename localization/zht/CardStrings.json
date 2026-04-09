@@ -68,6 +68,10 @@
     "NAME": "安眠曲",
     "DESCRIPTION": "對所有敵人 NL 造成當前 hopemod:非凡之力 NL 層數 !D! 點傷害"
   },
+  "${modID}:STPAttackDef": {
+    "NAME": "一心二用",
+    "DESCRIPTION": "造成 ！D！ 點傷害 NL 獲得 ！B！ 點格檔 NL 當前 hopemod:非凡之力 層數大於3時 NL 傷害及格檔翻倍 "
+  },
 
 
 
